@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import './App.css'; 
 
 const internData = [
-  { id: 1, name: "Glory Ani", attendance: 110, tasks: [9, 10, 9, 8, 9], totalScore: 45, track: "frontend", picture: "./img/img1.jpg" },
-  { id: 2, name: "Chioma Agu", attendance: 105, tasks: [9, 8, 10, 9, 10], totalScore: 46, track: "backend", picture: "url_to_picture" },
-  { id: 3, name: "Promise Cheta", attendance: 115, tasks: [9, 9, 9, 10, 10], totalScore: 47, track: "frontend", picture: "url_to_picture" },
-  { id: 4, name: "Chidiebere Obi", attendance: 120, tasks: [10, 10, 9, 10, 10], totalScore: 49, track: "backend", picture: "url_to_picture" },
-  { id: 5, name: "Lote Nna", attendance: 110, tasks: [9, 10, 8, 10, 9], totalScore: 46, track: "frontend", picture: "url_to_picture" },
-  { id: 6, name: "Emeka Joseph", attendance: 105, tasks: [10, 9, 9, 10, 9], totalScore: 47, track: "backend", picture: "url_to_picture" },
-  { id: 7, name: "Obi Ngwu", attendance: 115, tasks: [8, 9, 10, 10, 8], totalScore: 45, track: "frontend", picture: "url_to_picture" },
-  { id: 8, name: "Uche Boy", attendance: 120, tasks: [10, 10, 10, 9, 10], totalScore: 49, track: "backend", picture: "url_to_picture" },
-  { id: 9, name: "Ada Agu", attendance: 110, tasks: [9, 10, 8, 9, 10], totalScore: 46, track: "frontend", picture: "url_to_picture" },
-  { id: 10, name: "Chima John", attendance: 105, tasks: [10, 9, 10, 10, 8], totalScore: 47, track: "backend", picture: "url_to_picture" },
-  { id: 11, name: "Luke Ogene", attendance: 115, tasks: [9, 9, 9, 10, 10], totalScore: 47, track: "frontend", picture: "url_to_picture" },
+  { id: 1, name: "Glory Ani", attendance: 100, tasks: [9, 10, 9, 8, 9], totalScore: 45, track: "frontend", picture: "./img" },
+  { id: 2, name: "Chioma Agu", attendance: 105, tasks: [9, 8, 10, 9, 10], totalScore: 46, track: "backend", picture: "./img" },
+  { id: 3, name: "Promise Cheta", attendance: 115, tasks: [9, 9, 9, 10, 10], totalScore: 47, track: "frontend", picture: "./img" },
+  { id: 4, name: "Chidiebere Obi", attendance: 120, tasks: [10, 10, 9, 10, 10], totalScore: 49, track: "backend", picture: "./img" },
+  { id: 5, name: "Lote Nna", attendance: 110, tasks: [9, 10, 8, 10, 9], totalScore: 46, track: "frontend", picture: "./img" },
+  { id: 6, name: "Emeka Joseph", attendance: 105, tasks: [10, 9, 9, 10, 9], totalScore: 47, track: "backend", picture: "./img" },
+  { id: 7, name: "Obi Ngwu", attendance: 115, tasks: [8, 9, 10, 10, 8], totalScore: 45, track: "frontend", picture: "./img" },
+  { id: 8, name: "Uche Boy", attendance: 120, tasks: [10, 10, 10, 9, 10], totalScore: 49, track: "backend", picture: "./img" },
+  { id: 9, name: "Ada Agu", attendance: 110, tasks: [9, 10, 8, 9, 10], totalScore: 46, track: "frontend", picture: "./img" },
+  { id: 10, name: "Chima John", attendance: 105, tasks: [10, 9, 10, 10, 8], totalScore: 47, track: "backend", picture: "./img" },
+  { id: 11, name: "Luke Ogene", attendance: 115, tasks: [9, 9, 9, 10, 10], totalScore: 47, track: "frontend", picture: "./img" },
 ];
 
 const Leaderboard = () => {
